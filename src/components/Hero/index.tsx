@@ -3,13 +3,11 @@ import { Formulario, HeroTitle } from './styles'
 
 const Hero = () => (
   <Formulario>
-    <div>
-      <Container>
-        <HeroTitle>
-          As melhores vagas para tecnologia, design e artes visuais.
-        </HeroTitle>
-      </Container>
-    </div>
+    <Container>
+      <HeroTitle>
+        As melhores vagas para tecnologia, design e artes visuais.
+      </HeroTitle>
+    </Container>
   </Formulario>
   //<form className={styles.form}>
   //</form>

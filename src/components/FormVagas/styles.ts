@@ -7,10 +7,6 @@ export const Formulario = styled.form`
   padding: 32px;
   border-radius: 12px;
   margin-top: 40px;
-
-  @media (max-width 768px) {
-    display: block;
-  }
 `
 export const BotaoPesquisar = styled.button`
   background-color: var(--cor-principal);
